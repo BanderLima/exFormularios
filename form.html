@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3>Cadastro da liga do astronautas</h3>
+  <form action="">
+    <div>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+  </div>
+  <br>
+    <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"> 
+    <label for="senha">-Password</label>
+    <input type="password" name="password" id="password">
+  </div>
+    <br>
+    <div>
+    <label for="nasc">Data de nascimento:</label>
+    <input type="date" name="nasc" id="nasc"> 
+    <label for="foto">-Foto:</label> 
+    <input type="file" name="foto" id="foto">
+  </div>
+    <br>
+    <div>
+    <label for="nac">Nacionalidade:</label>
+    <select name="Nac" id="nac">
+      <option value="russo">Russa</option>
+      <option value="american">Americana</option>
+      <option value="brasileiro">Brasileira</option>
+    </select>
+    <label for="genero">-Gênero: F</label>
+    <input type="radio" name="ger" id="F" checked>
+    <label for="genero">M</label>
+    <input type="radio" name="ger" id="M">
+  </div>
+    <br>
+    <div>
+    Suas Principais qualidades: <br>
+    <label for="int">Inteligência</label> 
+    <input type="checkbox" name="int" id="int"> |
+    <label for="resi">Resiliência</label> 
+    <input type="checkbox" name="resi" id="resi"> |
+    <label for="fis">Preparo físico</label>
+     <input type="checkbox" name="fis" id="fis"> |
+    <label for="edu">Educação</label> 
+    <input type="checkbox" name="edu" id="edu"> |
+  </div>
+    <br>
+
+    <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Porque vc gostaria de ser um astronauta?"></textarea>
+    <br><br>
+    <input type="submit" value="Criar">
+
+  </form>
+</body>
+
+</html>
